@@ -110,7 +110,7 @@ class TkListener(Frame):
 
         # Create a tk.DrawingArea
         self.canvas = FigureCanvasTkAgg(self.figure, master=self)
-        self.canvas.show()
+        #self.canvas.show()
         self.canvas.get_tk_widget().pack(side=TOP, fill=BOTH, expand=1)
 
         self.listener = Listener(interval)
